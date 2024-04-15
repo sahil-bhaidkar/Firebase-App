@@ -52,3 +52,13 @@ p {
     text-align: center;
     margin-top: 20px;
 }
+
+.profileImage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+}
