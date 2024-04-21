@@ -5,17 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker - Home</title>
     <link rel="stylesheet" href="styles.css"> <!-- Include your stylesheet -->
+    <style>
+        /* Additional styles for the header */
+        header {
+            background-image: url('header-background.jpg'); /* Replace 'header-background.jpg' with your image path */
+            background-size: cover;
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* Additional styles for the navigation bar */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* Additional styles for the dashboard area */
+        .dashboard {
+            margin: 50px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to Expense Tracker</h1>
-        <!-- Add any navigation links or other header content here -->
+        <!-- Add any additional content for the header here -->
     </header>
 
-    <div class="container">
+    <nav>
+        <a href="#">Dashboard</a>
+        <a href="#">Expenses</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+        <!-- Add any additional navigation links here -->
+    </nav>
+
+    <div class="dashboard">
         <h2>Dashboard</h2>
-        <!-- Add your dashboard content here -->
         <p>This is your expense tracker dashboard. You can display various information and functionality related to expense tracking here.</p>
+        <!-- Add your dashboard content here, such as charts, graphs, or tables -->
     </div>
 
     <footer>
